@@ -7,15 +7,12 @@
  */
 int _isupper(int c)
 {
-int i = 'A';
+	int i = 'A';
 
-for (i = 'A'; i <= 'Z'; i++)
-{
-/*refer int c*/
-if (c == i)
-{
-return (1);
-}
-}
-return (0);
+	for (i = 'A'; i <= 'Z'; i++)
+	{
+	if (c == i)
+		return (1);
+	}
+	return (0);
 }
