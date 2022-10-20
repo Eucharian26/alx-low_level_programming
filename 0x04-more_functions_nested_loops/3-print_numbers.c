@@ -2,19 +2,15 @@
 
 /**
  * print_numbers - print the numbers from 0 to 9
- * Description: print the numbers from 0 to 9
- *
+ * Description: print the numbers from 0 to 9 followed by a new line
  * Return: The numbers from 0 to 9
  */
-
 void print_numbers(void)
 {
-	int c;
+	int i;
 
-	for (c = '0'; c <= '9'; c++)
-	{
-		_putchar(c + '0');
-	}
+	for (i = '0'; i <= '9'; i++)
+		_putchar(i + '0');
 	_putchar('\n');
 }
 
