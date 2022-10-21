@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isupper - checks for uppercase character
+ * _isupper - checks is a character is uppercase
  * @c: carrier integer variable
  * Return: 1 if true, 0 if false
  */
