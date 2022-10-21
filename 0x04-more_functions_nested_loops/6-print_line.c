@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * print_line - Draws a straight line using a character __.
+ * print_line - Draws a straight line using a character _.
  * @n: The number of _ characters to be printed out.
  */
 
@@ -16,5 +16,6 @@ void print_line(int n)
 	_putchar('_');
 	}
 	}
+
 	_putchar('\n');
 }
