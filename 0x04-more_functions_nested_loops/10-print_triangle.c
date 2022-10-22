@@ -9,7 +9,7 @@ void print_triangle(int size)
 {
 	int hash, index, ash;
 
-	if (size < 0)
+	if (size <= 0)
 	{
 		for (hash = 0; hash < size; hash++)
 		{
@@ -18,7 +18,7 @@ void print_triangle(int size)
 				_putchar(' ');
 			}
 
-				for (ash = 0; ash < hash; ash++)
+				for (ash = 0; ash <= hash; ash++)
 				{
 					_putchar('#');
 				}
