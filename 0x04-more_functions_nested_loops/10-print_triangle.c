@@ -9,7 +9,7 @@ void print_triangle(int size)
 {
 	int hash, index, ash;
 
-	if (size <= 0)
+	if (size < 0)
 	{
 		for (hash = 0; hash < size; hash++)
 		{
