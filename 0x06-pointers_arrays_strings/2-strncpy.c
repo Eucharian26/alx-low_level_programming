@@ -2,11 +2,10 @@
 
 /**
  * _strncpy - Copy a string
- * @dest: The destination value
- * @src: The source value
- * @n: The copy limit
- *
- * Return: char value
+ * @dest: string to be copied to
+ * @src: string to be copied
+ * @n: No of bytes to copy
+ * Return: dest
  */
 
 char *_strncpy(char *dest, char *src, int n)
